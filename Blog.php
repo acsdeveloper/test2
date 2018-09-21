@@ -259,7 +259,7 @@ class Blog extends LeActiveRecord
 	    if (count($this->_categories) === 0)
 	    {
 	    	$rec = BlogHelper::categoryList($this->id);
-	    	foreach($rec as $r){
+	        foreach($rec as $r){
                 $this->_categories[$r['id']] = $r['name'];	
             }
 	    }
