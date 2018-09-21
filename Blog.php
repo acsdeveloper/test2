@@ -256,13 +256,13 @@ class Blog extends LeActiveRecord
     /* ******************************************************** */
     public function getCategories()
     { 
-	    if (count($this->_categories) === 0)
-	    {
-	    	$rec = BlogHelper::categoryList($this->id);
-	        foreach($rec as $r){
+        if (count($this->_categories) === 0)
+        {
+            $rec = BlogHelper::categoryList($this->id);
+            foreach($rec as $r){
                 $this->_categories[$r['id']] = $r['name'];	
             }
-	    }
+        }
     	return $this->_categories; 
     }
     /* ******************************************************** */
