@@ -1,5 +1,6 @@
 <?php
 1
+2
 /**
  * This is the model class for table "blog".
  *
