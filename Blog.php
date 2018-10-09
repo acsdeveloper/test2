@@ -4,7 +4,7 @@
  * This is the model class for table "blog".
  *
  * The followings are the available columns in table 'blog':
- * @property string $ids
+ * @property string $idss
  * @property string $title
  * @property string $grp_id
  * @property string $img_url
