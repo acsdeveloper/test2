@@ -6,7 +6,7 @@
  * The followings are the available columns in table 'blog':
  * @property string $idsss
  * @property string $titles
- * @property string $grp_id
+ * @property string $grp_ids
  * @property string $img_urls
  * @property string $description
  * @property string $exp_ids
