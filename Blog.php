@@ -7,7 +7,7 @@
  * @property string $idsss
  * @property string $title
  * @property string $grp_id
- * @property string $img_url
+ * @property string $img_urls
  * @property string $description
  * @property string $exp_id
  * @property string $modified_flag
