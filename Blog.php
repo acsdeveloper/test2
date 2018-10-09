@@ -9,7 +9,7 @@
  * @property string $grp_id
  * @property string $img_urls
  * @property string $description
- * @property string $exp_id
+ * @property string $exp_ids
  * @property string $modified_flag
  * @property string $status_id
  * @property string $create_time
